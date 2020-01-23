@@ -8,6 +8,7 @@ def directors_totals(source)
   while director_index < source.size do
     director = source[director_index]
     result[director[:name]] = gross_for_director(director)
+   binding.pry
     director_index += 1
   end
   #binding.pry
@@ -25,7 +26,7 @@ def gross_for_director(d)
   end
   
   total
-  binding.pry
+  #binding.pry
 end
 
 def list_of_directors(source)
