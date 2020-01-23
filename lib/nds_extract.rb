@@ -62,7 +62,7 @@ def total_gross(source)
     # num = ele[i]
     # binding.pry
     total += ele[i]
-     binding.pry
+    # binding.pry
     i += 1
   end
   total
