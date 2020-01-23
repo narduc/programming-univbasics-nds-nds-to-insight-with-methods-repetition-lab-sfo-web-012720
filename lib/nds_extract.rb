@@ -54,6 +54,7 @@ def total_gross(source)
   
   total = 0
   list = list_of_directors(source)
+  binding.pry
   i = 0
   while i < list.length do
      binding.pry
