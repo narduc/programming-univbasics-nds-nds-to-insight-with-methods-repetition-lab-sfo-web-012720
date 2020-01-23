@@ -49,12 +49,13 @@ def total_gross(source)
   # Visit each key (i.e. director name), look up the value in the hash
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
+  
   total = 0
   list = list_of_directors(source)
   i = 0
   while i < list.length do
     # binding.pry
-    total += directors_totals([:name])
+    total += directors_totals(list[i][:name])
     
     i += 1
   end
