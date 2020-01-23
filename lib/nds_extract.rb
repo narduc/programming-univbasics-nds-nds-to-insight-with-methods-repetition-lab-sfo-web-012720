@@ -58,11 +58,11 @@ def total_gross(source)
   # binding.pry
   i = 0
   while i < list.length do
-     binding.pry
+    # binding.pry
     num = ele[i]
     # binding.pry
     total += num
-    # binding.pry
+     binding.pry
     i += 1
   end
   total
