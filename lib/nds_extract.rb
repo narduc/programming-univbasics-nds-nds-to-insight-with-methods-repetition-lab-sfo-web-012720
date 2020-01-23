@@ -23,8 +23,9 @@ def gross_for_director(d)
     total += d[:movies][index][:worldwide_gross]
     index += 1
   end
-
+  
   total
+  binding.pry
 end
 
 def list_of_directors(source)
