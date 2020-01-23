@@ -54,7 +54,7 @@ def total_gross(source)
   i = 0
   while i < list.length do
     # binding.pry
-    total += directors_totals(list[i][:name])
+    total += directors_totals([:name])
     
     i += 1
   end
