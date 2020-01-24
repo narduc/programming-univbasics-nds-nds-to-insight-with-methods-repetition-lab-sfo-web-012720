@@ -61,16 +61,10 @@ def total_gross(source)
     # binding.pry
     # num = ele[i]
      binding.pry
-    total += ele[:name][i]
+    total += ele[:name]
     # binding.pry
     i += 1
   end
   total
 end
-
-
-
-
-
-
 
